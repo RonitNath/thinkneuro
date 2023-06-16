@@ -15,7 +15,7 @@
 
     <br/>
 
-    <img src="" alt="Logo">
+    <img src="/logo.png" alt="Logo">
 </div>
 
 <style>

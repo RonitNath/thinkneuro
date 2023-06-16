@@ -9,7 +9,7 @@
         bottom: 0;
         width: 60%;
         text-align: center;
-        background-color: #ABCDFF;
+        background-color: #d6e3f5;
     }
 
 </style>

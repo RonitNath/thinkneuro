@@ -3,6 +3,7 @@
     import Footer from "./components/Footer.svelte";
     import Router, { link } from "svelte-spa-router";
     import { routes } from "./routes.js";
+    
 </script>
 
 
@@ -32,16 +33,16 @@
 		max-width: 240px;
 		margin: 0 20% ;
         margin-bottom: 5vh;
-        background-color: #ABCDFF;
+        background-color: #d6e3f5;
         min-height: 95vh;
+
 	}
 
     .content {
         padding: 0 10%;
     }
 
-    
-
+  
 
 
 

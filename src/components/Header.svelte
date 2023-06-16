@@ -1,8 +1,47 @@
+<style>
+    img {
+        /* Absolute position of parent div, left side, scales dynamically based on device width */
+        width: 50px;
+    }
+
+    h1 {
+        font-size: 100%;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    .logo-items {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .title {
+        flex-basis: 50%;
+    }
+
+    .title-sides {
+        flex-basis: 25%;
+    }
+
+    header {
+        font-family: 'Montserrat', sans-serif;
+    }
+</style>
+
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+</head>
 
 <header>
-    <img src="" alt="">
-    <h1>ThinkNeuro</h1>
-    <p>ThinkNeuro is a wonderful organization</p>
+    <div class="logo-items">
+        <img class="title-sides" src="/logo.png" alt="ThinkNeuro Logo">
+        <div class="title">
+            <h1>ThinkNeuro</h1>
+            <p>ThinkNeuro is a wonderful organization</p>
+        </div>
+        <div class="title-sides"></div>
+    </div>
     <nav>
 
         <Navlink to="/" name="Home" />
